@@ -1,0 +1,873 @@
+###############################################################################
+#
+# IAR ELF Linker V8.20.2.14835/W32 for ARM                19/Mar/2018  13:58:44
+# Copyright 2007-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Exe\c.out
+#    Map file     =  
+#        C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\List\c.map
+#    Command line =  
+#        -f C:\Users\KSK\AppData\Local\Temp\EWB836.tmp
+#        ("C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\ComFunction.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\croutine.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\event_groups.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\Hardware_Function_Profile.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\heap_2.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\IO_Function.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\IO_Kernel_Function.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\IO_Kernel_Task.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\list.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\main.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\misc.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\port.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\portasm.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\Project_Function.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\queue.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\ringbuf.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\startup_stm32f10x_md_freertos.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\stm32f10x_adc.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\stm32f10x_bkp.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\stm32f10x_can.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\stm32f10x_cec.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\stm32f10x_crc.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\stm32f10x_dac.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\stm32f10x_dbgmcu.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\stm32f10x_dma.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\stm32f10x_exti.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\stm32f10x_flash.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\stm32f10x_fsmc.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\stm32f10x_gpio.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\stm32f10x_i2c.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\stm32f10x_it.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\stm32f10x_iwdg.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\stm32f10x_pwr.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\stm32f10x_rcc.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\stm32f10x_rtc.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\stm32f10x_sdio.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\stm32f10x_spi.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\stm32f10x_tim.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\stm32f10x_usart.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\stm32f10x_wwdg.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\stream_buffer.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\system_stm32f10x.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\tasks.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\Time_Manage_Function.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\Timer_Function.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\timers.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\USART1_AppCall_Function.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\USART1_Function.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\UserTask.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\Utilities.o"
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj\Watchdog_Function.o"
+#        -o "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Exe\c.out"
+#        --printf_multibytes --scanf_multibytes --map
+#        "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\List\c.map"
+#        --config "C:\Users\KSK\Desktop\TUT2-PWM -
+#        ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\..\..\3.Project_APhi_Navigator\2.MainSource\\stm32f103x8_FWWithBootloader.icf"
+#        --entry __iar_program_start --inline --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x08005000 { ro section .intvec };
+"P1":  place in [from 0x08005000 to 0x0803ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 1K, alignment = 8 { };
+"P2":  place in [from 0x20000000 to 0x2000bfff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+No sections matched the following patterns:
+
+  ro section .BOOTLOADER            in "A1"
+  ro section .FW_DECRIPTIONSEGMENT  in "A2"
+
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A0":                                       0xec
+  .intvec            ro code  0x08005000    0xec  startup_stm32f10x_md_freertos.o [1]
+                            - 0x080050ec    0xec
+
+"P1":                                     0x40d0
+  .text              ro code  0x080050ec   0x758  tasks.o [1]
+  .text              ro code  0x08005844   0x150  heap_2.o [1]
+  .text              ro code  0x08005994    0x66  ABImemset.o [4]
+  .rodata            const    0x080059fa     0x2  heap_2.o [1]
+  .text              ro code  0x080059fc    0xf0  port.o [1]
+  .text              ro code  0x08005aec    0x94  list.o [1]
+  CODE               ro code  0x08005b80    0x88  portasm.o [1]
+  .text              ro code  0x08005c08   0x64c  Project_Function.o [1]
+  .text              ro code  0x08006254   0x19c  system_stm32f10x.o [1]
+  .text              ro code  0x080063f0    0xbc  misc.o [1]
+  .text              ro code  0x080064ac   0x176  Timer_Function.o [1]
+  .text              ro code  0x08006624    0xb4  USART1_AppCall_Function.o [1]
+  .text              ro code  0x080066d8   0x1bc  stm32f10x_rcc.o [1]
+  .text              ro code  0x08006894   0x228  stm32f10x_gpio.o [1]
+  .text              ro code  0x08006abc   0x2b8  IO_Function.o [1]
+  .text              ro code  0x08006d74   0x188  stm32f10x_flash.o [1]
+  .text              ro code  0x08006efc    0x68  memcmp.o [4]
+  .text              ro code  0x08006f64    0xa6  ABImemcpy.o [4]
+  .text              ro code  0x0800700a    0x26  Watchdog_Function.o [1]
+  .text              ro code  0x08007030   0x61c  stm32f10x_tim.o [1]
+  .text              ro code  0x0800764c   0x19c  stm32f10x_dma.o [1]
+  .text              ro code  0x080077e8   0x1f8  stm32f10x_adc.o [1]
+  .text              ro code  0x080079e0    0x40  stm32f10x_iwdg.o [1]
+  .text              ro code  0x08007a20    0x36  strlen.o [4]
+  .text              ro code  0x08007a58   0x1e4  USART1_Function.o [1]
+  .text              ro code  0x08007c3c    0xc8  stm32f10x_exti.o [1]
+  .text              ro code  0x08007d04   0x296  stm32f10x_usart.o [1]
+  .text              ro code  0x08007f9a    0x7e  ringbuf.o [1]
+  .text              ro code  0x08008018   0x452  IO_Kernel_Function.o [1]
+  .text              ro code  0x0800846c   0x42c  ComFunction.o [1]
+  .text              ro code  0x08008898    0x24  Utilities.o [1]
+  .text              ro code  0x080088bc   0x1c8  IO_Kernel_Task.o [1]
+  .text              ro code  0x08008a84    0x8e  Time_Manage_Function.o [1]
+  .text              ro code  0x08008b14    0x1c  stm32f10x_rtc.o [1]
+  .text              ro code  0x08008b30   0x14c  UserTask.o [1]
+  .text              ro code  0x08008c7c    0x9c  stm32f10x_it.o [1]
+  .text              ro code  0x08008d18    0x50  main.o [1]
+  .text              ro code  0x08008d68    0x40  zero_init3.o [4]
+  .text              ro code  0x08008da8    0x38  packbits_init_single.o [4]
+  .rodata            const    0x08008de0    0x2c  Project_Function.o [1]
+  .rodata            const    0x08008e0c    0x2c  Project_Function.o [1]
+  .rodata            const    0x08008e38    0x28  Project_Function.o [1]
+  .rodata            const    0x08008e60    0x28  Project_Function.o [1]
+  .rodata            const    0x08008e88    0x28  Project_Function.o [1]
+  .rodata            const    0x08008eb0    0x28  Project_Function.o [1]
+  .text              ro code  0x08008ed8    0x28  data_init.o [4]
+  .rodata            const    0x08008f00    0x24  Project_Function.o [1]
+  .rodata            const    0x08008f24    0x24  Project_Function.o [1]
+  .iar.init_table    const    0x08008f48    0x20  - Linker created -
+  .rodata            const    0x08008f68    0x20  Project_Function.o [1]
+  .rodata            const    0x08008f88    0x20  Project_Function.o [1]
+  .text              ro code  0x08008fa8    0x1e  cmain.o [4]
+  .text              ro code  0x08008fc6     0x4  exit.o [3]
+  .text              ro code  0x08008fcc     0xa  cexit.o [4]
+  .text              ro code  0x08008fd8     0xc  XXexit.o [4]
+  .rodata            const    0x08008fe4    0x18  ComFunction.o [1]
+  .rodata            const    0x08008ffc    0x10  ComFunction.o [1]
+  .rodata            const    0x0800900c    0x10  ComFunction.o [1]
+  .rodata            const    0x0800901c    0x10  main.o [1]
+  .rodata            const    0x0800902c    0x10  main.o [1]
+  .rodata            const    0x0800903c     0xc  ComFunction.o [1]
+  .rodata            const    0x08009048     0xc  ComFunction.o [1]
+  .rodata            const    0x08009054     0xc  ComFunction.o [1]
+  .text              ro code  0x08009060     0xc  cstartup_M.o [4]
+  .rodata            const    0x0800906c     0x8  tasks.o [1]
+  .text              ro code  0x08009074     0x8  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x0800907c     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x08009080     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x08009084     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x08009088     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x0800908c     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x08009090     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x08009094     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x08009098     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x0800909c     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x080090a0     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x080090a4     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x080090a8     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x080090ac     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x080090b0     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x080090b4     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x080090b8     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x080090bc     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x080090c0     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x080090c4     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x080090c8     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x080090cc     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x080090d0     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x080090d4     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x080090d8     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x080090dc     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x080090e0     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x080090e4     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x080090e8     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x080090ec     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x080090f0     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x080090f4     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x080090f8     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x080090fc     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x08009100     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x08009104     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x08009108     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x0800910c     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x08009110     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x08009114     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x08009118     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x0800911c     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x08009120     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x08009124     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x08009128     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x0800912c     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x08009130     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x08009134     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x08009138     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x0800913c     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x08009140     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x08009144     0x4  startup_stm32f10x_md_freertos.o [1]
+  .text              ro code  0x08009148     0x4  startup_stm32f10x_md_freertos.o [1]
+  .rodata            const    0x0800914c     0x0  zero_init3.o [4]
+  .rodata            const    0x0800914c     0x0  packbits_init_single.o [4]
+  Initializer bytes  const    0x0800914c    0x70  <for P2-1>
+                            - 0x080091bc  0x40d0
+
+"P2", part 1 of 3:                         0x14b
+  P2-1                        0x20000000   0x14b  <Init block>
+    .data            inited   0x20000000    0x10  Hardware_Function_Profile.o [1]
+    .data            inited   0x20000010     0x4  heap_2.o [1]
+    .data            inited   0x20000014     0x4  port.o [1]
+    .data            inited   0x20000018   0x104  Project_Function.o [1]
+    .data            inited   0x2000011c     0x4  Project_Function.o [1]
+    .data            inited   0x20000120    0x10  stm32f10x_rcc.o [1]
+    .data            inited   0x20000130     0x4  stm32f10x_rcc.o [1]
+    .data            inited   0x20000134     0x4  system_stm32f10x.o [1]
+    .data            inited   0x20000138    0x10  system_stm32f10x.o [1]
+    .data            inited   0x20000148     0x1  main.o [1]
+    .data            inited   0x20000149     0x1  main.o [1]
+    .data            inited   0x2000014a     0x1  USART1_Function.o [1]
+                            - 0x2000014b   0x14b
+
+"P2", part 2 of 3:                        0x2438
+  .bss               zero     0x2000014c  0x1400  heap_2.o [1]
+  .bss               zero     0x2000154c   0x400  Project_Function.o [1]
+  .bss               zero     0x2000194c   0x320  Hardware_Function_Profile.o [1]
+  .bss               zero     0x20001c6c   0x1f4  ComFunction.o [1]
+  .bss               zero     0x20001e60   0x1f4  ComFunction.o [1]
+  .bss               zero     0x20002054   0x190  Hardware_Function_Profile.o [1]
+  .bss               zero     0x200021e4    0x8c  tasks.o [1]
+  .bss               zero     0x20002270    0x80  ComFunction.o [1]
+  .bss               zero     0x200022f0    0x2c  Hardware_Function_Profile.o [1]
+  .bss               zero     0x2000231c    0x14  ComFunction.o [1]
+  .bss               zero     0x20002330    0x14  IO_Function.o [1]
+  .bss               zero     0x20002344    0x14  IO_Function.o [1]
+  .bss               zero     0x20002358    0x14  IO_Function.o [1]
+  .bss               zero     0x2000236c    0x14  IO_Function.o [1]
+  .bss               zero     0x20002380    0x14  tasks.o [1]
+  .bss               zero     0x20002394    0x14  tasks.o [1]
+  .bss               zero     0x200023a8    0x14  tasks.o [1]
+  .bss               zero     0x200023bc    0x14  tasks.o [1]
+  .bss               zero     0x200023d0    0x14  tasks.o [1]
+  .bss               zero     0x200023e4    0x10  Hardware_Function_Profile.o [1]
+  .bss               zero     0x200023f4    0x10  Hardware_Function_Profile.o [1]
+  .bss               zero     0x20002404    0x10  IO_Kernel_Task.o [1]
+  .bss               zero     0x20002414    0x10  IO_Kernel_Task.o [1]
+  .bss               zero     0x20002424    0x10  IO_Kernel_Task.o [1]
+  .bss               zero     0x20002434    0x10  IO_Kernel_Task.o [1]
+  .bss               zero     0x20002444    0x10  IO_Kernel_Task.o [1]
+  .bss               zero     0x20002454     0xc  IO_Function.o [1]
+  .bss               zero     0x20002460     0xc  IO_Function.o [1]
+  .bss               zero     0x2000246c     0xc  IO_Function.o [1]
+  .bss               zero     0x20002478     0xc  IO_Function.o [1]
+  .bss               zero     0x20002484     0xc  IO_Function.o [1]
+  .bss               zero     0x20002490     0xc  IO_Function.o [1]
+  .bss               zero     0x2000249c     0xc  IO_Function.o [1]
+  .bss               zero     0x200024a8     0xc  IO_Kernel_Function.o [1]
+  .bss               zero     0x200024b4     0xc  IO_Kernel_Function.o [1]
+  .bss               zero     0x200024c0     0xc  IO_Kernel_Function.o [1]
+  .bss               zero     0x200024cc     0xc  IO_Kernel_Function.o [1]
+  .bss               zero     0x200024d8     0xc  IO_Kernel_Task.o [1]
+  .bss               zero     0x200024e4     0xc  IO_Kernel_Task.o [1]
+  .bss               zero     0x200024f0     0x8  heap_2.o [1]
+  .bss               zero     0x200024f8     0x8  heap_2.o [1]
+  .bss               zero     0x20002500     0x4  ComFunction.o [1]
+  .bss               zero     0x20002504     0x4  heap_2.o [1]
+  .bss               zero     0x20002508     0x4  IO_Kernel_Function.o [1]
+  .bss               zero     0x2000250c     0x4  main.o [1]
+  .bss               zero     0x20002510     0x4  main.o [1]
+  .bss               zero     0x20002514     0x4  Project_Function.o [1]
+  .bss               zero     0x20002518     0x4  Project_Function.o [1]
+  .bss               zero     0x2000251c     0x4  Project_Function.o [1]
+  .bss               zero     0x20002520     0x4  tasks.o [1]
+  .bss               zero     0x20002524     0x4  tasks.o [1]
+  .bss               zero     0x20002528     0x4  tasks.o [1]
+  .bss               zero     0x2000252c     0x4  tasks.o [1]
+  .bss               zero     0x20002530     0x4  tasks.o [1]
+  .bss               zero     0x20002534     0x4  tasks.o [1]
+  .bss               zero     0x20002538     0x4  tasks.o [1]
+  .bss               zero     0x2000253c     0x4  tasks.o [1]
+  .bss               zero     0x20002540     0x4  tasks.o [1]
+  .bss               zero     0x20002544     0x4  tasks.o [1]
+  .bss               zero     0x20002548     0x4  tasks.o [1]
+  .bss               zero     0x2000254c     0x4  tasks.o [1]
+  .bss               zero     0x20002550     0x4  tasks.o [1]
+  .bss               zero     0x20002554     0x4  tasks.o [1]
+  .bss               zero     0x20002558     0x4  tasks.o [1]
+  .bss               zero     0x2000255c     0x4  Timer_Function.o [1]
+  .bss               zero     0x20002560     0x4  Timer_Function.o [1]
+  .bss               zero     0x20002564     0x4  Timer_Function.o [1]
+  .bss               zero     0x20002568     0x4  Timer_Function.o [1]
+  .bss               zero     0x2000256c     0x2  ComFunction.o [1]
+  .bss               zero     0x2000256e     0x2  ComFunction.o [1]
+  .bss               zero     0x20002570     0x2  ComFunction.o [1]
+  .bss               zero     0x20002572     0x2  Project_Function.o [1]
+  .bss               zero     0x20002574     0x2  Timer_Function.o [1]
+  .bss               zero     0x20002576     0x1  ComFunction.o [1]
+  .bss               zero     0x20002577     0x1  ComFunction.o [1]
+  .bss               zero     0x20002578     0x1  ComFunction.o [1]
+  .bss               zero     0x20002579     0x1  ComFunction.o [1]
+  .bss               zero     0x2000257a     0x1  ComFunction.o [1]
+  .bss               zero     0x2000257b     0x1  ComFunction.o [1]
+  .bss               zero     0x2000257c     0x1  main.o [1]
+  .bss               zero     0x2000257d     0x1  main.o [1]
+  .bss               zero     0x2000257e     0x1  Project_Function.o [1]
+  .bss               zero     0x2000257f     0x1  Project_Function.o [1]
+  .bss               zero     0x20002580     0x1  Project_Function.o [1]
+  .bss               zero     0x20002581     0x1  UserTask.o [1]
+  .bss               zero     0x20002582     0x1  UserTask.o [1]
+                            - 0x20002583  0x2437
+
+"P2", part 3 of 3:                         0x400
+  CSTACK                      0x20002588   0x400  <Block>
+    CSTACK           uninit   0x20002588   0x400  <Block tail>
+                            - 0x20002988   0x400
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x2437:
+          0x2000014c  0x2437
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x70 (33% of destination):
+          0x0800914c    0x70
+    1 destination range, total size 0x14b:
+          0x20000000   0x14b
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                           ro code  ro data  rw data
+    ------                           -------  -------  -------
+C:\Users\KSK\Desktop\TUT2-PWM - ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj: [1]
+    ComFunction.o                      1 068       92    1 164
+    Hardware_Function_Profile.o                     5    1 292
+    IO_Function.o                        696               164
+    IO_Kernel_Function.o               1 106                52
+    IO_Kernel_Task.o                     456               104
+    Project_Function.o                 1 612      473    1 305
+    Time_Manage_Function.o               142
+    Timer_Function.o                     374                18
+    USART1_AppCall_Function.o            180
+    USART1_Function.o                    484        1        1
+    UserTask.o                           332                 2
+    Utilities.o                           36
+    Watchdog_Function.o                   38
+    heap_2.o                             336        3    5 144
+    list.o                               148
+    main.o                                80       33       12
+    misc.o                               188
+    port.o                               240        2        4
+    portasm.o                            136
+    ringbuf.o                            126
+    startup_stm32f10x_md_freertos.o      452
+    stm32f10x_adc.o                      504
+    stm32f10x_dma.o                      412
+    stm32f10x_exti.o                     200
+    stm32f10x_flash.o                    392
+    stm32f10x_gpio.o                     552
+    stm32f10x_it.o                       156
+    stm32f10x_iwdg.o                      64
+    stm32f10x_rcc.o                      444        7       20
+    stm32f10x_rtc.o                       28
+    stm32f10x_tim.o                    1 564
+    stm32f10x_usart.o                    662
+    system_stm32f10x.o                   412        6       20
+    tasks.o                            1 880        8      300
+    ----------------------------------------------------------
+    Total:                            15 500      630    9 602
+
+command line: [2]
+    ----------------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    exit.o                                 4
+    ----------------------------------------------------------
+    Total:                                 4
+
+rt7M_tl.a: [4]
+    ABImemcpy.o                          166
+    ABImemset.o                          102
+    XXexit.o                              12
+    cexit.o                               10
+    cmain.o                               30
+    cstartup_M.o                          12
+    data_init.o                           40
+    memcmp.o                             104
+    packbits_init_single.o                56
+    strlen.o                              54
+    zero_init3.o                          64
+    ----------------------------------------------------------
+    Total:                               650
+
+    Gaps                                  12
+    Linker created                                 32    1 024
+--------------------------------------------------------------
+    Grand Total:                      16 166      662   10 626
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.iar.init_table$$Base   0x08008f48           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x08008f68           --   Gb  - Linker created -
+?main                   0x08008fa9          Code  Gb  cmain.o [4]
+ADCConvertedValue       0x20002572     0x2  Data  Gb  Project_Function.o [1]
+ADCPrescTable           0x20000130     0x4  Data  Lc  stm32f10x_rcc.o [1]
+ADC_Cmd                 0x08007835    0x1c  Code  Gb  stm32f10x_adc.o [1]
+ADC_DMACmd              0x08007851    0x1c  Code  Gb  stm32f10x_adc.o [1]
+ADC_GetCalibrationStatus
+                        0x08007895    0x14  Code  Gb  stm32f10x_adc.o [1]
+ADC_GetResetCalibrationStatus
+                        0x08007877    0x14  Code  Gb  stm32f10x_adc.o [1]
+ADC_Init                0x080077e9    0x4c  Code  Gb  stm32f10x_adc.o [1]
+ADC_RegularChannelConfig
+                        0x080078c5   0x112  Code  Gb  stm32f10x_adc.o [1]
+ADC_ResetCalibration    0x0800786d     0xa  Code  Gb  stm32f10x_adc.o [1]
+ADC_SoftwareStartConvCmd
+                        0x080078a9    0x1c  Code  Gb  stm32f10x_adc.o [1]
+ADC_StartCalibration    0x0800788b     0xa  Code  Gb  stm32f10x_adc.o [1]
+AHBPrescTable           0x20000138    0x10  Data  Gb  system_stm32f10x.o [1]
+APBAHBPrescTable        0x20000120    0x10  Data  Lc  stm32f10x_rcc.o [1]
+BusFault_Handler        0x08008c83     0x2  Code  Gb  stm32f10x_it.o [1]
+CRC8Bits                0x08008899    0x24  Code  Gb  Utilities.o [1]
+CRCData                 0x2000256c     0x2  Data  Gb  ComFunction.o [1]
+CSTACK$$Base            0x20002588           --   Gb  - Linker created -
+CSTACK$$Limit           0x20002988           --   Gb  - Linker created -
+DMA_Cmd                 0x08007793    0x1e  Code  Gb  stm32f10x_dma.o [1]
+DMA_DeInit              0x0800764d   0x10a  Code  Gb  stm32f10x_dma.o [1]
+DMA_Init                0x08007757    0x3c  Code  Gb  stm32f10x_dma.o [1]
+DebugMon_Handler        0x08008c87     0x2  Code  Gb  stm32f10x_it.o [1]
+EXTI0_IRQHandler        0x08008c89    0x18  Code  Gb  stm32f10x_it.o [1]
+EXTI9_5_IRQHandler      0x08008ca1    0x64  Code  Gb  stm32f10x_it.o [1]
+EXTI_ClearITPendingBit  0x08007ce9     0x6  Code  Gb  stm32f10x_exti.o [1]
+EXTI_GetITStatus        0x08007cc3    0x26  Code  Gb  stm32f10x_exti.o [1]
+EXTI_Init               0x08007c3d    0x86  Code  Gb  stm32f10x_exti.o [1]
+EnableUARTComm          0x20002579     0x1  Data  Gb  ComFunction.o [1]
+FLASH_ClearFlag         0x08006e81     0x6  Code  Gb  stm32f10x_flash.o [1]
+FLASH_ErasePage         0x08006d9d    0x60  Code  Gb  stm32f10x_flash.o [1]
+FLASH_GetBank1Status    0x08006e87    0x2c  Code  Gb  stm32f10x_flash.o [1]
+FLASH_Lock              0x08006d8b    0x12  Code  Gb  stm32f10x_flash.o [1]
+FLASH_ProgramWord       0x08006dfd    0x84  Code  Gb  stm32f10x_flash.o [1]
+FLASH_Unlock            0x08006d75    0x16  Code  Gb  stm32f10x_flash.o [1]
+FLASH_WaitForLastOperation
+                        0x08006ecd    0x30  Code  Gb  stm32f10x_flash.o [1]
+GPIO_EXTILineConfig     0x08006a57    0x58  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_Init               0x08006895    0xec  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_PinRemapConfig     0x080069d1    0x86  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_ReadInputDataBit   0x08006981    0x1c  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_ReadOutputDataBit  0x0800699d    0x1c  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_WriteBit           0x080069b9    0x18  Code  Gb  stm32f10x_gpio.o [1]
+HardFault_Handler       0x08008c7f     0x2  Code  Gb  stm32f10x_it.o [1]
+IO_BUTTON_1_Init        0x08006c31    0x70  Code  Gb  IO_Function.o [1]
+IO_BUTTON_1_Read        0x08006ca1     0xc  Code  Gb  IO_Function.o [1]
+IO_BUTTON_2_Init        0x08006cad    0x74  Code  Gb  IO_Function.o [1]
+IO_BUTTON_2_Read        0x08006d21     0xe  Code  Gb  IO_Function.o [1]
+IO_BUTTON_3_Init        0x08006d2f    0x2e  Code  Gb  IO_Function.o [1]
+IO_BUTTON_3_Read        0x08006d5d     0xc  Code  Gb  IO_Function.o [1]
+IO_LED1_Init            0x08006abd    0x3c  Code  Gb  IO_Function.o [1]
+IO_LED1_Read            0x08006af9     0xe  Code  Gb  IO_Function.o [1]
+IO_LED1_Write           0x08006b09    0x14  Code  Gb  IO_Function.o [1]
+IO_LED1_WriteStatus     0x08006b1d     0xe  Code  Gb  IO_Function.o [1]
+IO_RELAY_1_Init         0x08006b2b    0x34  Code  Gb  IO_Function.o [1]
+IO_RELAY_1_Write        0x08006b61    0x12  Code  Gb  IO_Function.o [1]
+IO_RELAY_1_WriteStatus  0x08006b75     0xc  Code  Gb  IO_Function.o [1]
+IO_RELAY_2_Init         0x08006b81    0x36  Code  Gb  IO_Function.o [1]
+IO_RELAY_2_Write        0x08006bb9    0x14  Code  Gb  IO_Function.o [1]
+IO_RELAY_2_WriteStatus  0x08006bcd     0xe  Code  Gb  IO_Function.o [1]
+IO_RELAY_3_Init         0x08006bdb    0x34  Code  Gb  IO_Function.o [1]
+IO_RELAY_3_Write        0x08006c11    0x12  Code  Gb  IO_Function.o [1]
+IO_RELAY_3_WriteStatus  0x08006c25     0xc  Code  Gb  IO_Function.o [1]
+IWDG_Enable             0x08007a09     0xa  Code  Gb  stm32f10x_iwdg.o [1]
+IWDG_Init               0x0800700b    0x1a  Code  Gb  Watchdog_Function.o [1]
+IWDG_ReloadCounter      0x080079ff     0xa  Code  Gb  stm32f10x_iwdg.o [1]
+IWDG_SetPrescaler       0x080079eb     0xa  Code  Gb  stm32f10x_iwdg.o [1]
+IWDG_SetReload          0x080079f5     0xa  Code  Gb  stm32f10x_iwdg.o [1]
+IWDG_Start_Countdown    0x08007025     0xc  Code  Gb  Watchdog_Function.o [1]
+IWDG_WriteAccessCmd     0x080079e1     0xa  Code  Gb  stm32f10x_iwdg.o [1]
+MemManage_Handler       0x08008c81     0x2  Code  Gb  stm32f10x_it.o [1]
+NMI_Handler             0x08008c7d     0x2  Code  Gb  stm32f10x_it.o [1]
+NVIC_EnableIRQ          0x08005c09    0x18  Code  Lc  Project_Function.o [1]
+NVIC_Init               0x080063fb    0x66  Code  Gb  misc.o [1]
+NVIC_PriorityGroupConfig
+                        0x080063f1     0xa  Code  Gb  misc.o [1]
+NVIC_SetVectorTable     0x08006461     0xc  Code  Gb  misc.o [1]
+PACKAGE_BUFF            0x20002270    0x80  Data  Gb  ComFunction.o [1]
+RCC_AHBPeriphClockCmd   0x080067cd    0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB1PeriphClockCmd  0x0800680d    0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB1PeriphResetCmd  0x0800684d    0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x080067ed    0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB2PeriphResetCmd  0x0800682d    0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetClocksFreq       0x080066d9    0xf4  Code  Gb  stm32f10x_rcc.o [1]
+RINGBUF_Get             0x08007feb    0x2e  Code  Gb  ringbuf.o [1]
+RINGBUF_Init            0x08007f9b    0x24  Code  Gb  ringbuf.o [1]
+RINGBUF_Put             0x08007fbf    0x2c  Code  Gb  ringbuf.o [1]
+RTC_GetCounter          0x08008b15    0x14  Code  Gb  stm32f10x_rtc.o [1]
+Region$$Table$$Base     0x08008f48           --   Gb  - Linker created -
+Region$$Table$$Limit    0x08008f68           --   Gb  - Linker created -
+SetSysClock             0x0800633f     0x8  Code  Lc  system_stm32f10x.o [1]
+SetSysClockToHSI48Mhz   0x08006347    0x7a  Code  Lc  system_stm32f10x.o [1]
+StrConfig               0x2000154c   0x400  Data  Gb  Project_Function.o [1]
+StrConfigPara           0x20000018   0x104  Data  Gb  Project_Function.o [1]
+SysTick_CLKSourceConfig
+                        0x0800646d    0x20  Code  Gb  misc.o [1]
+SystemCoreClock         0x20000134     0x4  Data  Gb  system_stm32f10x.o [1]
+SystemCoreClockUpdate   0x080062a7    0x98  Code  Gb  system_stm32f10x.o [1]
+SystemInit              0x08006255    0x52  Code  Gb  system_stm32f10x.o [1]
+TIM2_IRQHandler         0x08006525    0xac  Code  Gb  Timer_Function.o [1]
+TIM2_IRQHandler{1}{2}::bCountReloadWatchdog
+                        0x20002574     0x2  Data  Lc  Timer_Function.o [1]
+TIM3_IRQHandler         0x08006159    0x5c  Code  Gb  Project_Function.o [1]
+TIM_ARRPreloadConfig    0x08007585    0x1e  Code  Gb  stm32f10x_tim.o [1]
+TIM_ClearITPendingBit   0x0800760f     0xa  Code  Gb  stm32f10x_tim.o [1]
+TIM_Cmd                 0x080074d9    0x1e  Code  Gb  stm32f10x_tim.o [1]
+TIM_CtrlPWMOutputs      0x080074f7    0x24  Code  Gb  stm32f10x_tim.o [1]
+TIM_DeInit              0x08007031   0x1e0  Code  Gb  stm32f10x_tim.o [1]
+TIM_EncoderInterfaceConfig
+                        0x08007533    0x52  Code  Gb  stm32f10x_tim.o [1]
+TIM_GetITStatus         0x080075e1    0x2e  Code  Gb  stm32f10x_tim.o [1]
+TIM_ITConfig            0x0800751b    0x18  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC1Init             0x0800729d    0x94  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC1PreloadConfig    0x080075a3    0x14  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC2Init             0x08007331    0x8a  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC2PreloadConfig    0x080075b7    0x16  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC3Init             0x080073bb    0x88  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC3PreloadConfig    0x080075cd    0x14  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC4Init             0x08007443    0x6c  Code  Gb  stm32f10x_tim.o [1]
+TIM_TimeBaseInit        0x08007211    0x8c  Code  Gb  stm32f10x_tim.o [1]
+TIM_TimeBaseStructInit  0x080074c1    0x18  Code  Gb  stm32f10x_tim.o [1]
+UART_BUFFER_RX          0x20001c6c   0x1f4  Data  Gb  ComFunction.o [1]
+UART_BUFFER_TX          0x20001e60   0x1f4  Data  Gb  ComFunction.o [1]
+UART_Comm               0x0800846d   0x116  Code  Gb  ComFunction.o [1]
+UART_Comm_Feedback_Command_Content
+                        0x080086b9    0x4e  Code  Gb  ComFunction.o [1]
+UART_MakeData           0x08008607    0xb2  Code  Gb  ComFunction.o [1]
+UART_MakeFeedback       0x08008583    0x84  Code  Gb  ComFunction.o [1]
+UART_Tick               0x20002500     0x4  Data  Gb  ComFunction.o [1]
+USART1_AppCall_GetByte  0x080066cd     0xc  Code  Gb  USART1_AppCall_Function.o [1]
+USART1_AppCall_Init     0x08006625    0x3a  Code  Gb  USART1_AppCall_Function.o [1]
+USART1_AppCall_SendBuf  0x08006691    0x28  Code  Gb  USART1_AppCall_Function.o [1]
+USART1_AppCall_SendByte
+                        0x080066b9    0x12  Code  Gb  USART1_AppCall_Function.o [1]
+USART1_AppCall_SendString
+                        0x08006679    0x16  Code  Gb  USART1_AppCall_Function.o [1]
+USART1_Close            0x08007b31     0xa  Code  Gb  USART1_Function.o [1]
+USART1_Get_Byte_RX_RingBuf
+                        0x08007b8b    0x18  Code  Gb  USART1_Function.o [1]
+USART1_IRQHandler       0x08007ba3    0x76  Code  Gb  USART1_Function.o [1]
+USART1_IRQHandler::cChar
+                        0x2000014a     0x1  Data  Lc  USART1_Function.o [1]
+USART1_Init             0x08007a59    0xd8  Code  Gb  USART1_Function.o [1]
+USART1_InitStructure    0x20000000    0x10  Data  Gb  Hardware_Function_Profile.o [1]
+USART1_RXBuff           0x20002054   0x190  Data  Gb  Hardware_Function_Profile.o [1]
+USART1_RXRingBuff       0x200023e4    0x10  Data  Gb  Hardware_Function_Profile.o [1]
+USART1_Send_Byte_TX_RingBuf
+                        0x08007b7b    0x10  Code  Gb  USART1_Function.o [1]
+USART1_StartReceive     0x08007b5b    0x10  Code  Gb  USART1_Function.o [1]
+USART1_StartSend        0x08007b3b    0x10  Code  Gb  USART1_Function.o [1]
+USART1_StopReceive      0x08007b6b    0x10  Code  Gb  USART1_Function.o [1]
+USART1_StopSend         0x08007b4b    0x10  Code  Gb  USART1_Function.o [1]
+USART1_TXBuff           0x2000194c   0x320  Data  Gb  Hardware_Function_Profile.o [1]
+USART1_TXRingBuff       0x200023f4    0x10  Data  Gb  Hardware_Function_Profile.o [1]
+USART_Cmd               0x08007e91    0x1e  Code  Gb  stm32f10x_usart.o [1]
+USART_DeInit            0x08007d05    0x90  Code  Gb  stm32f10x_usart.o [1]
+USART_GetITStatus       0x08007f2f    0x6c  Code  Gb  stm32f10x_usart.o [1]
+USART_ITConfig          0x08007eaf    0x70  Code  Gb  stm32f10x_usart.o [1]
+USART_Init              0x08007d95    0xe6  Code  Gb  stm32f10x_usart.o [1]
+USART_ReceiveData       0x08007f27     0x8  Code  Gb  stm32f10x_usart.o [1]
+USART_SendData          0x08007f1f     0x8  Code  Gb  stm32f10x_usart.o [1]
+UsageFault_Handler      0x08008c85     0x2  Code  Gb  stm32f10x_it.o [1]
+__aeabi_memcpy          0x08006f65          Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy4         0x08006f85          Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy8         0x08006f85          Code  Gb  ABImemcpy.o [4]
+__aeabi_memset          0x08005995          Code  Gb  ABImemset.o [4]
+__cmain                 0x08008fa9          Code  Gb  cmain.o [4]
+__exit                  0x08008fd9          Code  Gb  XXexit.o [4]
+__iar_Memset            0x08005995          Code  Gb  ABImemset.o [4]
+__iar_Memset_word       0x0800599d          Code  Gb  ABImemset.o [4]
+__iar_data_init3        0x08008ed9    0x28  Code  Gb  data_init.o [4]
+__iar_packbits_init_single3
+                        0x08008da9    0x38  Code  Gb  packbits_init_single.o [4]
+__iar_program_start     0x08009061          Code  Gb  cstartup_M.o [4]
+__iar_systems$$module {Abs}
+                        0x00000001          Data  Gb  command line/config [2]
+__iar_zero_init3        0x08008d69    0x40  Code  Gb  zero_init3.o [4]
+__vector_table          0x08005000          Data  Gb  startup_stm32f10x_md_freertos.o [1]
+_call_main              0x08008fb5          Code  Gb  cmain.o [4]
+_exit                   0x08008fcd          Code  Gb  cexit.o [4]
+_main                   0x08008fc3          Code  Gb  cmain.o [4]
+bClickCount             0x200024c0     0xc  Data  Lc  IO_Kernel_Function.o [1]
+bFlagGetCommandLEDConfigUART1
+                        0x2000257a     0x1  Data  Gb  ComFunction.o [1]
+bFlag_1st_Case          0x20002581     0x1  Data  Gb  UserTask.o [1]
+bFlag_Key_Bike_Int      0x2000257e     0x1  Data  Gb  Project_Function.o [1]
+bFlag_Leg_Bike_Int      0x2000257f     0x1  Data  Gb  Project_Function.o [1]
+bHoldOff                0x200024cc     0xc  Data  Lc  IO_Kernel_Function.o [1]
+bLEDConfigCommand       0x2000231c    0x14  Data  Gb  ComFunction.o [1]
+bLast_Idx_High          0x20002577     0x1  Data  Gb  ComFunction.o [1]
+bLast_Idx_Low           0x20002576     0x1  Data  Gb  ComFunction.o [1]
+clock_time_timer_ms     0x08008a8d     0x8  Code  Gb  Time_Manage_Function.o [1]
+clock_time_timer_rtc    0x08008a9d     0x8  Code  Gb  Time_Manage_Function.o [1]
+clock_time_timer_s      0x08008a95     0x8  Code  Gb  Time_Manage_Function.o [1]
+clock_time_timer_us     0x08008a85     0x8  Code  Gb  Time_Manage_Function.o [1]
+eState_User_Task        0x20002582     0x1  Data  Gb  UserTask.o [1]
+eUARTDetectEnCMD        0x20002578     0x1  Data  Gb  ComFunction.o [1]
+exit                    0x08008fc7     0x4  Code  Gb  exit.o [3]
+fIO_Button_Process      0x08008977    0x76  Code  Gb  IO_Kernel_Task.o [1]
+fIO_Input_Task          0x08008943    0x18  Code  Gb  IO_Kernel_Task.o [1]
+fIO_LED_Process         0x08008a19    0x1c  Code  Gb  IO_Kernel_Task.o [1]
+fIO_Output_Task         0x0800895b    0x1c  Code  Gb  IO_Kernel_Task.o [1]
+fIO_Relay_Process       0x080089ed    0x2c  Code  Gb  IO_Kernel_Task.o [1]
+flag_start_sample       0x20002508     0x4  Data  Lc  IO_Kernel_Function.o [1]
+heapSTRUCT_SIZE         0x080059fa     0x2  Data  Lc  heap_2.o [1]
+i_UART_RX               0x20002570     0x2  Data  Gb  ComFunction.o [1]
+i_UART_TX               0x2000256e     0x2  Data  Gb  ComFunction.o [1]
+main                    0x08008d19    0x38  Code  Gb  main.o [1]
+memcmp                  0x08006efd          Code  Gb  memcmp.o [4]
+pBUT_1                  0x20002484     0xc  Data  Gb  IO_Function.o [1]
+pBUT_2                  0x20002490     0xc  Data  Gb  IO_Function.o [1]
+pBUT_3                  0x2000249c     0xc  Data  Gb  IO_Function.o [1]
+pLED1                   0x20002454     0xc  Data  Gb  IO_Function.o [1]
+pRELAY_1                0x20002460     0xc  Data  Gb  IO_Function.o [1]
+pRELAY_2                0x2000246c     0xc  Data  Gb  IO_Function.o [1]
+pRELAY_3                0x20002478     0xc  Data  Gb  IO_Function.o [1]
+pStrConfig              0x20002514     0x4  Data  Gb  Project_Function.o [1]
+pUSART1                 0x200022f0    0x2c  Data  Gb  Hardware_Function_Profile.o [1]
+prvAddCurrentTaskToDelayedList
+                        0x08005785    0x7e  Code  Lc  tasks.o [1]
+prvAddNewTaskToReadyList
+                        0x0800521b    0xc2  Code  Lc  tasks.o [1]
+prvCheckTasksWaitingTermination
+                        0x080056c9    0x4a  Code  Lc  tasks.o [1]
+prvDeleteTCB            0x08005729    0x12  Code  Lc  tasks.o [1]
+prvHeapInit             0x08005951    0x2a  Code  Lc  heap_2.o [1]
+prvIdleTask             0x08005645    0x2a  Code  Lc  tasks.o [1]
+prvInitialiseNewTask    0x08005161    0xba  Code  Lc  tasks.o [1]
+prvInitialiseTaskLists  0x0800566f    0x54  Code  Lc  tasks.o [1]
+prvResetNextTaskUnblockTime
+                        0x0800573b    0x2c  Code  Lc  tasks.o [1]
+prvTaskExitError        0x08005a1d    0x10  Code  Lc  port.o [1]
+pvPortMalloc            0x08005845    0xcc  Code  Gb  heap_2.o [1]
+pvPortMalloc::xHeapHasBeenInitialised
+                        0x20002504     0x4  Data  Lc  heap_2.o [1]
+pxCurrentTCB            0x20002520     0x4  Data  Gb  tasks.o [1]
+pxDelayedTaskList       0x20002524     0x4  Data  Lc  tasks.o [1]
+pxOverflowDelayedTaskList
+                        0x20002528     0x4  Data  Lc  tasks.o [1]
+pxPortInitialiseStack   0x080059fd    0x20  Code  Gb  port.o [1]
+pxReadyTasksLists       0x200021e4    0x8c  Data  Lc  tasks.o [1]
+rotary_cntr             0x2000251c     0x4  Data  Gb  Project_Function.o [1]
+rotary_dir              0x20002580     0x1  Data  Gb  Project_Function.o [1]
+rotary_ready            0x2000011c     0x4  Data  Gb  Project_Function.o [1]
+strIO_Button_Value      0x200024d8     0xc  Data  Gb  IO_Kernel_Task.o [1]
+strLED_1                0x20002330    0x14  Data  Gb  IO_Function.o [1]
+strOld_IO_Button_Value  0x200024e4     0xc  Data  Gb  IO_Kernel_Task.o [1]
+strRELAY_1              0x20002344    0x14  Data  Gb  IO_Function.o [1]
+strRELAY_2              0x20002358    0x14  Data  Gb  IO_Function.o [1]
+strRELAY_3              0x2000236c    0x14  Data  Gb  IO_Function.o [1]
+strlen                  0x08007a21          Code  Gb  strlen.o [4]
+tIO_Button_Task         0x20002424    0x10  Data  Lc  IO_Kernel_Task.o [1]
+tIO_Input_Task          0x20002404    0x10  Data  Gb  IO_Kernel_Task.o [1]
+tIO_LED_Task            0x20002444    0x10  Data  Lc  IO_Kernel_Task.o [1]
+tIO_Output_Task         0x20002414    0x10  Data  Gb  IO_Kernel_Task.o [1]
+tIO_Relay_Task          0x20002434    0x10  Data  Lc  IO_Kernel_Task.o [1]
+timer_expired           0x08008af5    0x1e  Code  Gb  Time_Manage_Function.o [1]
+timer_restart           0x08008ae9     0xc  Code  Gb  Time_Manage_Function.o [1]
+timer_set               0x08008aa5    0x34  Code  Gb  Time_Manage_Function.o [1]
+uTimeCheck              0x200024a8     0xc  Data  Lc  IO_Kernel_Function.o [1]
+uTimeHighResolution     0x2000255c     0x4  Data  Gb  Timer_Function.o [1]
+uTimeMsCounter          0x20002560     0x4  Data  Gb  Timer_Function.o [1]
+uTimePress              0x200024b4     0xc  Data  Lc  IO_Kernel_Function.o [1]
+uTimeSCounter           0x20002564     0x4  Data  Gb  Timer_Function.o [1]
+uUnresetTimeHighResolution
+                        0x20002568     0x4  Data  Gb  Timer_Function.o [1]
+ucHeap                  0x2000014c  0x1400  Data  Lc  heap_2.o [1]
+uxCriticalNesting       0x20000014     0x4  Data  Lc  port.o [1]
+uxCurrentNumberOfTasks  0x20002530     0x4  Data  Lc  tasks.o [1]
+uxDeletedTasksWaitingCleanUp
+                        0x2000252c     0x4  Data  Lc  tasks.o [1]
+uxListRemove            0x08005b59    0x28  Code  Gb  list.o [1]
+uxPendedTicks           0x20002540     0x4  Data  Lc  tasks.o [1]
+uxSchedulerSuspended    0x20002558     0x4  Data  Lc  tasks.o [1]
+uxTaskNumber            0x2000254c     0x4  Data  Lc  tasks.o [1]
+uxTopReadyPriority      0x20002538     0x4  Data  Lc  tasks.o [1]
+vChangeDutyCycleOC1     0x08005fed    0x16  Code  Gb  Project_Function.o [1]
+vComCommandProcess      0x0800877f    0xaa  Code  Gb  ComFunction.o [1]
+vComPortProcess         0x0800870d    0x72  Code  Gb  ComFunction.o [1]
+vComPortProcess::bUSARTReceive
+                        0x2000257b     0x1  Data  Lc  ComFunction.o [1]
+vFLASH_UpdateData       0x08005ee9    0x30  Code  Gb  Project_Function.o [1]
+vFLASH_User_Read        0x08005e19    0x40  Code  Gb  Project_Function.o [1]
+vFLASH_User_Write       0x08005e59    0x90  Code  Gb  Project_Function.o [1]
+vGetCurrentCounterTimeBaseMs
+                        0x080065e9     0x6  Code  Gb  Timer_Function.o [1]
+vGetCurrentCounterTimeBaseS
+                        0x080065ef     0x6  Code  Gb  Timer_Function.o [1]
+vGetCurrentCounterTimeBaseUs
+                        0x080065d1    0x18  Code  Gb  Timer_Function.o [1]
+vGetIOButtonValue       0x08008019   0x334  Code  Gb  IO_Kernel_Function.o [1]
+vIO_ConfigOutput        0x080083f3    0x78  Code  Gb  IO_Kernel_Function.o [1]
+vIO_Kernel_Task         0x080088bd    0x86  Code  Gb  IO_Kernel_Task.o [1]
+vIO_Output              0x08008365    0x8e  Code  Gb  IO_Kernel_Function.o [1]
+vInitPWMFunction        0x08005f19    0xd4  Code  Gb  Project_Function.o [1]
+vInit_DMA_ADC_Function  0x08006009    0xe2  Code  Gb  Project_Function.o [1]
+vInit_TIM_ENCODER_Function
+                        0x080060eb    0x6e  Code  Gb  Project_Function.o [1]
+vListInitialise         0x08005aed    0x1e  Code  Gb  list.o [1]
+vListInsert             0x08005b23    0x36  Code  Gb  list.o [1]
+vListInsertEnd          0x08005b0b    0x18  Code  Gb  list.o [1]
+vMCU_Init_Hardware      0x08005c21    0x56  Code  Gb  Project_Function.o [1]
+vMCU_Init_Hardware::lSystemClock
+                        0x20002518     0x4  Data  Lc  Project_Function.o [1]
+vPortEnterCritical      0x08005a59    0x1a  Code  Gb  port.o [1]
+vPortExitCritical       0x08005a73    0x1a  Code  Gb  port.o [1]
+vPortFree               0x08005911    0x40  Code  Gb  heap_2.o [1]
+vPortSVCHandler         0x08005bc7          Code  Gb  portasm.o [1]
+vPortStartFirstTask     0x08005be7          Code  Gb  portasm.o [1]
+vProject_Init           0x08005c77   0x1a2  Code  Gb  Project_Function.o [1]
+vSetupTimerBaseFunction
+                        0x080064ad    0x78  Code  Gb  Timer_Function.o [1]
+vTaskDelay              0x08005349    0x34  Code  Gb  tasks.o [1]
+vTaskDelayUntil         0x080052dd    0x6c  Code  Gb  tasks.o [1]
+vTaskStartScheduler     0x0800537d    0x50  Code  Gb  tasks.o [1]
+vTaskSuspendAll         0x080053cd    0x10  Code  Gb  tasks.o [1]
+vTaskSwitchContext      0x080055db    0x52  Code  Gb  tasks.o [1]
+vTimerBase_DelayMS      0x0800660d    0x16  Code  Gb  Timer_Function.o [1]
+vUserTask               0x08008b31    0x32  Code  Gb  UserTask.o [1]
+vUserTaskMainProcess    0x08008b63    0xf8  Code  Gb  UserTask.o [1]
+xDelayedTaskList1       0x20002380    0x14  Data  Lc  tasks.o [1]
+xDelayedTaskList2       0x20002394    0x14  Data  Lc  tasks.o [1]
+xEnd                    0x200024f8     0x8  Data  Lc  heap_2.o [1]
+xFlag_IO_Task_Init_Done
+                        0x2000257c     0x1  Data  Gb  main.o [1]
+xFlag_IO_Task_Still_Running
+                        0x20000148     0x1  Data  Gb  main.o [1]
+xFlag_User_Task_Init_Done
+                        0x2000257d     0x1  Data  Gb  main.o [1]
+xFlag_User_Task_Still_Running
+                        0x20000149     0x1  Data  Gb  main.o [1]
+xFreeBytesRemaining     0x20000010     0x4  Data  Lc  heap_2.o [1]
+xIO_Task_Handle         0x2000250c     0x4  Data  Gb  main.o [1]
+xIdleTaskHandle         0x20002554     0x4  Data  Lc  tasks.o [1]
+xNextTaskUnblockTime    0x20002550     0x4  Data  Lc  tasks.o [1]
+xNumOfOverflows         0x20002548     0x4  Data  Lc  tasks.o [1]
+xPendingReadyList       0x200023a8    0x14  Data  Lc  tasks.o [1]
+xPortPendSVHandler      0x08005b81          Code  Gb  portasm.o [1]
+xPortStartScheduler     0x08005a2d    0x2c  Code  Gb  port.o [1]
+xPortSysTickHandler     0x08005a8d    0x28  Code  Gb  port.o [1]
+xSchedulerRunning       0x2000253c     0x4  Data  Lc  tasks.o [1]
+xStart                  0x200024f0     0x8  Data  Lc  heap_2.o [1]
+xSuspendedTaskList      0x200023d0    0x14  Data  Lc  tasks.o [1]
+xTaskCreate             0x080050ed    0x74  Code  Gb  tasks.o [1]
+xTaskGetTickCount       0x080054c3     0x8  Code  Gb  tasks.o [1]
+xTaskIncrementTick      0x080054cb   0x110  Code  Gb  tasks.o [1]
+xTaskResumeAll          0x080053dd    0xe6  Code  Gb  tasks.o [1]
+xTasksWaitingTermination
+                        0x200023bc    0x14  Data  Lc  tasks.o [1]
+xTickCount              0x20002534     0x4  Data  Lc  tasks.o [1]
+xUser_Task_Handle       0x20002510     0x4  Data  Gb  main.o [1]
+xYieldPending           0x20002544     0x4  Data  Lc  tasks.o [1]
+
+
+[1] = C:\Users\KSK\Desktop\TUT2-PWM - ENCODER\1.1.FW_APhi_Navigator\3.Project_APhi_Navigator\4.Project_Build\Debug\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = rt7M_tl.a
+
+  16 166 bytes of readonly  code memory
+     662 bytes of readonly  data memory
+  10 626 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
